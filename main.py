@@ -37,6 +37,6 @@ while True:
     print(f"You choose {user_choice_1}, computer choose {comp}")
     winner(user_choice_1, comp)
 
-    play_again = input("Play again? (Y/N) ").upper()
+    play_again = input("Play again? (Y/N) ")
     if play_again != "Y":
         break
